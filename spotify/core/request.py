@@ -1,4 +1,4 @@
-from pyemitter import Emitter
+from pyemitter.pyemitter import Emitter
 import logging
 
 log = logging.getLogger(__name__)

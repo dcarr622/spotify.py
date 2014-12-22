@@ -3,7 +3,7 @@ from spotify.components.base import Component
 from spotify.components.manager import ComponentManager
 from spotify.objects.user import User
 
-from pyemitter import Emitter
+from pyemitter.pyemitter import Emitter
 import logging
 
 

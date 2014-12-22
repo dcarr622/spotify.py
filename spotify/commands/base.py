@@ -1,5 +1,5 @@
 from spotify.components.base import Component
-from pyemitter import Emitter
+from pyemitter.pyemitter import Emitter
 
 
 class Command(Component, Emitter):

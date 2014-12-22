@@ -1,7 +1,7 @@
 from spotify.core.helpers import set_defaults
 from spotify.tunigo.response import TunigoResponse
 
-from pyemitter import Emitter
+from pyemitter.pyemitter import Emitter
 import urllib
 import time
 import logging

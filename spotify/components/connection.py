@@ -2,7 +2,7 @@ from spotify.components.base import Component
 from spotify.core.helpers import repr_trim
 from spotify.core.request import Request
 
-from pyemitter import Emitter
+from pyemitter.pyemitter import Emitter
 from threading import Lock, Timer
 from ws4py.client.threadedclient import WebSocketClient
 import json

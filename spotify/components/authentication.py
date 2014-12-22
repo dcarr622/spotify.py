@@ -1,6 +1,6 @@
 from spotify.components.base import Component
 
-from pyemitter import Emitter
+from pyemitter.pyemitter import Emitter
 import json
 import logging
 import re
